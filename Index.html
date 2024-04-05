@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media Networking</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <header>
+        <img
+          src="https://media1.popsugar-assets.com/files/thumbor/NBLJu4OrKwHq8qBB17O38DPcfjA/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2015/01/14/831/n/3019466/971c8ac9951b9c95_Hermione-First-Year/i/First-Year-Hermione-Granger.jpg"
+          alt="profile image"
+        />
+        <div>
+          <p>Hermione Granger</p>
+          <i class="ri-verified-badge-fill"></i>
+        </div>
+      </header>
+      <div class="card">
+        <div id="carousel" class="visual">
+          <img
+            id="card1"
+            src="http://images4.fanpop.com/image/photos/18800000/DH-Promo-Pics-hermione-granger-18894985-1575-2100.jpg"
+            alt="Hermione"
+          />
+          <img
+            id="card2"
+            src="http://images5.fanpop.com/image/photos/31900000/New-promotional-pictures-of-Emma-Watson-for-Harry-Potter-and-the-Deathly-Hallows-part-1-hermione-granger-31934052-1919-2560.jpg"
+            alt="Hermione with wand"
+          />
+          <img
+            id="card3"
+            src="https://media.harrypotterfanzone.com/hermione-granger-order-of-the-phoenix-portrait-5.jpg"
+            alt="Order of Phoenix"
+          />
+          <img
+            id="card4"
+            src="https://media.harrypotterfanzone.com/hermione-granger-half-blood-prince-portrait-13.jpg"
+            alt="Half Blood Prince"
+          />
+          <img
+            id="card5"
+            src="http://images4.fanpop.com/image/photos/20000000/Hermione-Granger-hermione-granger-20053436-936-1197.jpg"
+            alt="Child pic"
+          />
+          <img
+            id="card6"
+            src="https://media.harrypotterfanzone.com/hermione-granger-chamber-of-secrets-portrait-3.jpg"
+            alt="Chamber of secrets portrait"
+          />
+
+          <div class="controls">
+            <button
+              id="prev"
+              class="previous"
+              onclick="carousel.scrollBy(-100, 0)"
+            >
+              <i class="ri-arrow-left-circle-fill"></i>
+            </button>
+            <button id="next" class="next" onclick="carousel.scrollBy(100, 0)">
+              <i class="ri-arrow-right-circle-fill"></i>
+            </button>
+          </div>
+
+          <div id="pagination" class="pagination"></div>
+        </div>
+      </div>
+      <div class="social">
+        <div class="inter">
+          <div>
+            <button>
+              <i class="ri-heart-line"></i>
+            </button>
+
+            <button>
+              <i class="ri-chat-3-line"></i>
+            </button>
+            <button>
+              <i class="ri-share-line"></i>
+            </button>
+          </div>
+
+          <button>
+            <i class="ri-bookmark-line"></i>
+          </button>
+        </div>
+
+        <p>3,802 likes</p>
+        <p> It’s leviosa, not leviosar!! </p>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
